@@ -35,7 +35,7 @@ ent.disabled = true;
 btn[2].disabled = true;
 btn[1].addEventListener('click', function () {    
     data.arr = word.value.toUpperCase().split('');
-    word.value = '*';   
+    word.value = word.value.replace(/./g, '*');   
     data.arr.forEach(function (it, i) {        
         as[1].insertAdjacentHTML("beforebegin", '<div class="choose-item">*</div>');
     });
