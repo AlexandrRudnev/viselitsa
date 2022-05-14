@@ -23,8 +23,8 @@
 }
 #la, #me, #st {
     /* margin-top: 21px; */
-    width: 135px;
-    height: 45px;
+    width: 130px;
+    height: 40px;
     margin-left: 70px;
     border-radius: 5%;
     color: #000;
@@ -34,6 +34,9 @@
     display: none;
     position: absolute;
     z-index: 2;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
 }
 #la {
     margin-top: 21px;
