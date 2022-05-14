@@ -119,11 +119,7 @@
     font-size: 18px;
     font-weight: 500
 }
-button.rond {
-    /* position: absolute; */
-    top: 200px;
-    left: 4%;
-}
+
 .result {
     /* display: flex;
     flex-wrap: wrap;

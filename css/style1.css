@@ -118,11 +118,7 @@
     font-size: 18px;
     font-weight: 500
 }
-button.rond {
-    position: absolute;
-    top: 25.2%;
-    
-}
+
 .result {
     /* display: flex;
     flex-wrap: wrap;
