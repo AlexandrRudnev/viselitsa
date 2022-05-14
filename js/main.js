@@ -39,7 +39,7 @@ btn[1].addEventListener('click', function () {
     data.arr.forEach(function (it, i) {        
         as[1].insertAdjacentHTML("beforebegin", '<div class="choose-item">*</div>');
     });
-    btn[2].disabled = false;
+    btn[3].disabled = false;
     ent.disabled = false;
     btn[1].disabled = true;
     word.disabled = true;
@@ -59,7 +59,7 @@ btn[3].addEventListener('click', function () {
             data.sov.push(ent.value.toUpperCase());
             data.sov = Array.from(new Set(data.sov));
         }
-        console.log(bukva[i]);
+        
     });
     data.net = data.ol.filter(i => !data.arr.includes(i));
     netu.innerHTML = data.net;
@@ -73,10 +73,8 @@ btn[3].addEventListener('click', function () {
         if (data.arr.length == data.sov.length) {
             aud1.play();
             l.style.display = 'block';
-            console.log('g');
             ent.disabled = true;
-            btn[2].disabled = true;
-            console.log('g1');
+            btn[3].disabled = true;
             for (let i = 0; i < 8; ++i) {
                 vis[i].style.display = 'none';
                 
@@ -93,7 +91,7 @@ btn[3].addEventListener('click', function () {
             aud2.play();
             d.style.display = 'block';
             ent.disabled = true;
-            btn[2].disabled = true;
+            btn[3].disabled = true;
             for (let i = 0; data.arr.length; ++i) {
                 bukva[i].innerHTML = data.arr[i];
             }
