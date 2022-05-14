@@ -32,7 +32,7 @@ word.addEventListener('input', function () {
     btn[1].disabled = false;    
 });
 ent.disabled = true;
-btn[2].disabled = true;
+btn[3].disabled = true;
 btn[1].addEventListener('click', function () {    
     data.arr = word.value.toUpperCase().split('');
     word.value = word.value.replace(/./g, '*');   
@@ -42,9 +42,10 @@ btn[1].addEventListener('click', function () {
     btn[2].disabled = false;
     ent.disabled = false;
     btn[1].disabled = true;
+    word.disabled = true;
 });
 
-btn[2].addEventListener('click', function () {
+btn[3].addEventListener('click', function () {
     data.ol.push(ent.value.toUpperCase());
     data.ol = data.ol.filter(function(f) {
         return f !== '';

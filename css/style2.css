@@ -42,10 +42,10 @@
     margin-top: 21px;
 }
 #me {
-    margin-top: 65px;
+    margin-top: 61px;
 }
 #st {
-    margin-top: 109px;
+    margin-top: 101px;
 }
 .logo {
     width: 100%;
@@ -117,6 +117,11 @@
     height: 45px;    
     font-size: 18px;
     font-weight: 500
+}
+button.rond {
+    position: absolute;
+    top: 25.2%;
+    
 }
 .result {
     /* display: flex;
