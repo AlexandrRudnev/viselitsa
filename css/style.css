@@ -120,9 +120,9 @@
     font-weight: 500
 }
 button.rond {
-    position: absolute;
-    top: 25.2%;
-    
+    /* position: absolute; */
+    top: 200px;
+    left: 4%;
 }
 .result {
     /* display: flex;
@@ -266,11 +266,7 @@ button.rond {
     height: 35px;
     margin-top: 15px;
 }
-.open button {
-    width: 120px;
-    height: 35px;
-    margin: 15px auto auto auto
-}
+
 
 
 

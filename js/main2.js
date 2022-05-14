@@ -26,14 +26,14 @@ let data = {
 let aud1 = new Audio('img/9f3e49b8de7c9d7.mp3'),
     aud2 = new Audio('img/40a84da0291a73b.mp3');
 
-btn[1].disabled = true;
+btn[2].disabled = true;
 word.focus();
 word.addEventListener('input', function () {
-    btn[1].disabled = false;    
+    btn[2].disabled = false;    
 });
 ent.disabled = true;
 btn[3].disabled = true;
-btn[1].addEventListener('click', function () {    
+btn[2].addEventListener('click', function () {    
     data.arr = word.value.toUpperCase().split('');
     word.value = word.value.replace(/./g, '*');   
     data.arr.forEach(function (it, i) {        
@@ -41,7 +41,7 @@ btn[1].addEventListener('click', function () {
     });
     btn[3].disabled = false;
     ent.disabled = false;
-    btn[1].disabled = true;
+    btn[2].disabled = true;
     vis[0].style.display = 'block';
     word.disabled = true;
 });
