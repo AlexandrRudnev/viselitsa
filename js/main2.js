@@ -27,7 +27,7 @@ let data = {
     rond: []
 };
 data.rond = stroka.split(',');
-console.log(data.rond[data.rond.length-1]);
+
 btn[0].addEventListener('click', function () {    
     urov.forEach(function (item, i) {
        urov[i].style.display = 'block';
@@ -92,7 +92,7 @@ btn[4].addEventListener('click', function () {
         if (item == ent.value.toUpperCase()) {
             bukva[i].innerHTML = data.arr[i];
             data.sov.push(ent.value.toUpperCase());
-            data.sov = Array.from(new Set(data.sov));
+        
         }
     });
     data.net = data.ol.filter(i => !data.arr.includes(i));
@@ -107,6 +107,7 @@ btn[4].addEventListener('click', function () {
         if (data.arr.length == data.sov.length) {
             aud1.play();
             l.style.display = 'block';
+            
             ent.disabled = true;
             btn[4].disabled = true;
             for (let i = 0; i < 2; ++i) {
