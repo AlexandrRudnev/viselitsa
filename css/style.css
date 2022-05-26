@@ -103,7 +103,7 @@ button.menu {
 }
  button.skr, button.utv {
     display: block;
-    margin: 10px auto 30px auto;
+    margin: 10px auto 10px auto;
     border: solid rgb(128, 13, 13) 2px;
     border-radius: 6px;
     background-image: linear-gradient(336deg, #ffbd75, #ff964b), linear-gradient(#fff, #fff);
@@ -120,7 +120,7 @@ button.menu {
 button.rond  {    
     width: 200px;
     height: 35px;
-    margin: 10px auto 30px auto;
+    margin: 10px auto 10px auto;
     border: solid rgb(128, 13, 13) 2px;
     border-radius: 6px;
     background-image: linear-gradient(336deg, #ffbd75, #ff964b), linear-gradient(#fff, #fff);
@@ -230,12 +230,16 @@ button.rond  {
     margin-top: 280px;
     display: none;
 }
+.zad {
+    margin: auto 10px auto auto ;
+    font-weight: 500;
+}
 .choose{
     text-align: center;
     font-size: 30px;
     font-weight: 500;
     color: rgb(153, 14, 9);
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .choose-item,
 .item {
@@ -253,8 +257,7 @@ button.rond  {
     text-align:center;   
 }
 .item {
-    background-color:#fff;
-    
+    background-color:#fff;    
 }
 .ente{
     width: 40%;
