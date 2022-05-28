@@ -87,7 +87,7 @@ button.menu {
     z-index: 1;
     font-size: 7.4em;
     margin-top: 83px;
-    margin-left: 13.5%;
+    margin-left: 10.5%;
     color: rgb(233, 5, 55);
     display: none;    
 }
@@ -97,7 +97,7 @@ button.menu {
     z-index: 1;
     font-size: 7em;
     margin-top: 83px;
-    margin-left: 3%;
+    margin-left: 1%;
     color: rgb(233, 5, 55);
     display: none;
 }
@@ -142,91 +142,91 @@ button.rond  {
 }
 .lpod1 {
     position: absolute;
-    margin-left: 6.6%;
+    margin-left: 85px;
     margin-top: 405px;
     display: none;
 }
 .levo {
     position: absolute;
-    margin-left: 9.5%;
+    margin-left: 123px;
     margin-top: 27px;
     display: none;
 }
 .lpod2 {
     position: absolute;
-    margin-left: 9.7%;
+    margin-left: 124px;
     margin-top: 408px;
     display: none;
 }
 .verh {
     position: absolute;
     margin-top: 27px;
-    margin-left: 10%;
+    margin-left: 123px;
     display: none;
 }
 .rpod1 {
     position: absolute;
-    margin-left: 26.5%;
+    margin-left: 333px;
     margin-top: 405px;
-    display: none;
-}
-.rpod2 {
-    position: absolute;
-    margin-left: 29.5%;
-    margin-top: 408px;
     display: none;
 }
 .pravo {
     position: absolute;
-    margin-left: 29.3%;
+    margin-left: 370px;
     margin-top: 28px;
+    display: none;
+}
+.rpod2 {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 408px;
     display: none;
 }
 .ver {
     position: absolute;
-    margin-left: 19%;
+    margin-left: 240px;
     margin-top: 30px;
     display: none;
 }
 .morda {
     position: absolute;
-    margin-left: 16.7%;
+    margin-left: 210px;
     margin-top: 54px;
     display: none;
 }
 .sheya {
     position: absolute;
-    margin-left: 19.3%;
+    margin-left: 243px;
     margin-top: 120px;
     display: none;
 }
 .telo {
     position: absolute;
-    margin-left: 16.2%;
+    margin-left: 203px;
     margin-top: 130px;
     display: none;
 }
 .lruk {
     position: absolute;
-    margin-left: 12.5%;
+    margin-left: 157px;
     margin-top: 160px;
     display: none;
 }
 .rruk {
     position: absolute;
-    margin-left: 21.5%;
+    margin-left: 271px;
     margin-top: 155px;
     display: none;
 }
 .lnog {
     position: absolute;
-    margin-left: 15%;
+    margin-left: 185px;
     margin-top: 285px;
     display: none;
 }
 .rnog {
     position: absolute;
-    margin-left: 21.4%;
+    margin-left: 270px;
     margin-top: 280px;
     display: none;
 }
