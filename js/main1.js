@@ -126,7 +126,7 @@ btn[4].addEventListener('click', function () {
     data.arr.forEach(function (item, i) {       
         if (item == ent.value.toUpperCase()) {
             bukva[i].innerHTML = data.arr[i];
-            data.sov.push(ent.value.toUpperCase());
+            data.sov = data.ol.filter(i => data.arr.includes(i));
             
         }
     });
@@ -138,6 +138,7 @@ btn[4].addEventListener('click', function () {
     });
     ent.value = '';
     ent.focus();
+    
     data.sov.forEach(function (item, i) {
         if (data.arr.length == data.sov.length) {
             aud1.play();

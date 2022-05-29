@@ -115,6 +115,7 @@ btn[3].addEventListener('click', function () {
     btn[3].disabled = true;
     word.disabled = true;
     ent.focus();
+   
 });
 
 btn[4].addEventListener('click', function () {
@@ -128,14 +129,14 @@ btn[4].addEventListener('click', function () {
     data.arr.forEach(function (item, i) {       
         if (item == ent.value.toUpperCase()) {
             bukva[i].innerHTML = data.arr[i];
-            data.sov.push(ent.value.toUpperCase());
+            data.sov = data.ol.filter(i => data.arr.includes(i));            
             
         }
-        
+       
     });
     data.net = data.ol.filter(i => !data.arr.includes(i));
     netu.innerHTML = data.net;
-
+    
     data.net.forEach(function (item, i) {
         vis[i].style.display = 'block';
     });
@@ -170,6 +171,8 @@ btn[4].addEventListener('click', function () {
             }
         }
     });
+    
 });
+
 
                    
