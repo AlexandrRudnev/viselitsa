@@ -122,25 +122,27 @@ btn[4].addEventListener('click', function () {
     data.ol.push(ent.value.toUpperCase());
     data.ol = data.ol.filter(function(f) {
         return f !== '';
+        
        });
     data.ol = Array.from(new Set(data.ol)); 
-
+    data.arr1 = Array.from(new Set(data.arr));
     data.arr.forEach(function (item, i) {       
         if (item == ent.value.toUpperCase()) {
             bukva[i].innerHTML = data.arr[i];
-            data.sov = data.ol.filter(i => data.arr.includes(i));
+            data.sov = data.ol.filter(i => data.arr1.includes(i)); 
         }
+       
     });
     data.net = data.ol.filter(i => !data.arr.includes(i));
     netu.innerHTML = data.net;
     
     data.net.forEach(function (item, i) {
-        vis[++i].style.display = 'block';
+        vis[i].style.display = 'block';
     });
     ent.value = '';
     ent.focus();
     data.sov.forEach(function (item, i) {
-        if (data.arr.length == data.sov.length) {
+        if (data.arr1.length == data.sov.length) {
             aud1.play();
             l.style.display = 'block';
             
