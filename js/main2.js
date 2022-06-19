@@ -159,7 +159,7 @@ btn[4].addEventListener('click', function () {
     netu.innerHTML = data.net;
     
     data.net.forEach(function (item, i) {
-        vis[i].style.display = 'block';
+        vis[++i].style.display = 'block';
     });
     ent.value = '';
     ent.focus();
